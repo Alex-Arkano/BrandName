@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+padding: 0;
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    background-color: #252B42;
+}
+
+.wrap {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+
+.page1__header {
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo {
+    letter-spacing: .1px;
+    font-size: 24px;
+    color: #fff;
+    font-weight: 700;
+}
+
+.btn_header {
+    font-weight: 600;
+    letter-spacing: .2px;
+    color: #fff;
+    text-decoration: none;
+    margin-right: 21px;
+    position: relative;
+    left: -80px;
+}
+
+.login {
+    color: #23A6F0;
+    font-weight: 700;
+    text-decoration: none;
+    margin-right: 45px;
+}
+
+.member {
+    padding: 15px 25px;
+    background-color: #23A6F0;
+    border-radius: 5px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.page1__container {
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.text_container {
+    text-align: center;
+}
+
+h1 {
+    font-weight: 800;
+    font-size: 58px;
+    color: #fff;
+    letter-spacing: .2px;
+}
+
+h4 {
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: .2px;
+    color: #fff;
+}
+
+
+
