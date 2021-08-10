@@ -4,6 +4,7 @@ padding: 0;
 -webkit-box-sizing: border-box;
 -moz-box-sizing: border-box;
 box-sizing: border-box;
+    font-family: 'Montserrat';
 }
 
 body {
@@ -14,6 +15,11 @@ body {
 
 .wrap {
     width: 80%;
+}
+
+.wrap__page1 {
+    height: 100vh;
+    width: 100%;
     display: flex;
     flex-direction: column;
 }
@@ -85,6 +91,206 @@ h4 {
     letter-spacing: .2px;
     color: #fff;
 }
+
+.btns_container {
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btns_container a {
+    padding: 15px 36px;
+    border: 2px solid #fff;
+    margin: 15px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 37px;
+}
+
+.btns_container a:hover {
+    border: none;
+    background-color: #23A6F0;
+    
+}
+
+.wrap__page2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.p2_card {
+    padding: 35px 30px 35px 10px;
+    border: 1px solid #F2F2F2;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: #fff;
+}
+
+.p2_card_text h5{
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+}
+
+.p2_card_text p{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+}
+
+.p2_row {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.p2_card_img img {
+    margin: 19px;
+}
+
+.p2_text_container h2 {
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 57px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+}
+
+.p2_text_container p{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #737373;
+}
+
+.wrap__page3 {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.p3_text_container h2 {
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 57px;
+    letter-spacing: 0.2px;
+    text-align: center;
+    color: #FFFFFF;
+
+}
+
+.p3_text_container p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;    
+}
+
+.review_block {
+    width: 509px;
+    height: 248px;
+    background-color: #fff;
+    display: flex;
+    
+}
+
+.review_img {
+    width: 177px;
+    height: 248px;
+    background-color: rosybrown;
+}
+
+.review_text_container {
+    padding: 30px 40px;
+}
+
+.review_text_container div {
+    color: #F3CD03;
+    font-size: 24px;
+}
+
+.review_text_container h2{    
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0.1px;
+    color: #252B42;
+}
+
+.review_text_container h5{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #737373;
+}
+
+.review_text_container p{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #737373;
+
+}
+
+.p3_reviews_row {
+    width: 100%;
+    height: 250px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.wrap__page4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.p4_container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.p4_left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+}
+
+.p4_media {
+    width: 592px;
+    height: 442px;
+    background-image: url(card-item.png);
+}
+
+.p4_text {
+    width: 333px;
+    height: 356px;
+    background-image: url(col-md-4.png);
+}
+
+
+
+
 
 
 
